@@ -1,0 +1,218 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Nav-bar-css */
+
+.bookbuddy {
+    color: wheat;
+    background-color: none;
+    text-decoration: none;
+}
+
+.bookbuddy:hover {
+    color: rgb(9, 153, 153);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: wheat;
+    padding: 10px;
+    padding-right: 20px;
+    top: 0;
+    box-shadow: 30px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    border-bottom: 3px solid rgb(9, 153, 153);
+    margin: 0px 100px 20px 0px;
+}
+
+.logo>img {
+    width: 5vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Ruda';
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 1em;
+    font-family: 'Ruda';
+}
+
+.center>a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.center>a:hover {
+    color: rgb(9, 153, 153);
+}
+
+.search-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.search>button {
+    background-color: black;
+    color: wheat;
+    border: none;
+}
+
+.search>button:hover {
+    color: rgb(9, 153, 153);
+}
+
+.searchbar {
+    background-color: black;
+    color: wheat;
+    border-radius: 10px;
+    font-size: 1vw;
+    height: 1.5rem;
+    width: 10rem;
+    border: .5px solid gray;
+}
+
+.login-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-register>button {
+    background-color: black;
+    color: wheat;
+    border: none;
+}
+
+.login-register>a>button {
+    background-color: black;
+    color: wheat;
+    border: none;
+}
+
+.login-register>a>button:hover {
+    color: rgb(9, 153, 153);
+}
+
+.login-register>button:hover {
+    color: rgb(9, 153, 153);
+}
+
+
+/* myorder-css */
+
+.line2 {
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 1px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    font-family: Quattrocento;
+}
+
+table {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    font-size: 1.5rem;
+    padding: 20px;
+    color: wheat;
+}
+
+td {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    color: rgb(9, 153, 153);
+}
+
+
+/* bookdetails-css */
+
+.orders-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.orders-left>img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.orders-right {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-flow: column wrap;
+    gap: 0px;
+}
+
+.orders-right>div {
+    margin: 5px;
+    padding: 0;
+}
+
+.orders-right>div>h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.orders-right>div>span {
+    color: gray;
+}
